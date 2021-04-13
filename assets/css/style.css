@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #ddd;
+}
+
+h3 {
+    color: #133656;
+    font-size: 20px;
+    margin-top: 12px;
+}
+/* Estilo Barra topo azul escuro*/
+.topo {
+    height: 30px;
+    background-color: #133656;
+}
+.topoint {
+    width: 100%;
+    max-width: 780px;
+    height: 30px;
+    margin: auto;
+}
+/*Menu do Topo*/
+.menutopo {
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+.menutopo ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menutopo li{
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.menutopo li a{
+    text-decoration: none;
+    color: #fff;
+}
+.menutopo li a:hover{
+    color: #ffe049;
+}
+.menutopo li .ativo{
+    color: #ffe049;
+}
+
+/*Links das Redes Sociais e Busca*/
+.socialtopo {
+    width: 50%;
+    height: 28px;
+    float: right;
+    text-align: right;
+    margin-top: 2px;
+}
+.socialtopo a {
+    float: right;
+}
+.socialtopo input{
+    float: right;
+}
+.socialtopo img {
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.socialtopo .lupa {
+    margin: 2px 5px 0px 2px;
+}
+.topobusca {
+    width: 110px;
+    height: 24px;
+    margin-top: 1px;
+    outline: 0;
+}
+/* Estilo Barra topo Logo e Banner*/
+.topo2 {
+    height: 150px; 
+    background-color: #ffe049;
+}
+.topo2int {
+    width: 100%;
+    max-width: 780px;
+    height: 150px;
+    margin: auto;
+    
+}
+.logo {
+    float: left;
+    margin: 15px 10px 0 30px;
+}
+.topo2 .info {
+    float: right;
+    width: 70%;
+    height: 80px;
+    margin-top: 5px;
+    border-left: 2px solid #797979;
+    border-right: 2px solid #797979;
+}
+.topo2 .titulo h3 {
+    margin: 0 80px 0 0;
+    padding-top: 20px;
+    font-size: 30px;
+    color: #133656;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-shadow: 2px 2px 1px #ccc;
+    text-align: right;
+}
+.topo2 .info .endereco {
+    float: left;
+    width: 200px;
+    padding-right: 20px;
+    margin-left: 70px;   
+}
+
+.topo2 .info p {
+    color: #133656;
+    line-height: 20px;  
+}
+.topo2 .info .contato {
+    color: #133656;
+    padding-right: 5px;
+}
+
+
+
+/* Estilo Menu Principal*/
+.menu {
+    height: 40px; 
+    background-color:#797979;
+}
+.menuint {
+    width: 100%;
+    max-width: 780px;
+    height: 40px;
+    margin: auto;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li {
+    float: left; 
+    height: 40px;
+    line-height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.menu a {
+	color: #fff;
+    text-decoration: none;  
+}
+.menu li:hover {
+    background-color:#797979;
+	text-decoration: none;
+}
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    width: 140px;
+    background-color: #797979;
+    position: absolute;
+    display: none;
+}
+
+.submenuitem {
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+}
+.submenuitem p {
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+.submenuitem:hover {
+    background-color:#133656;
+}
+/* ESTILO SLIDESHOW */
+.containerint {
+    width: 100%;
+    max-width: 780px;
+    margin: auto;   
+    margin-top: 15px; 
+}
+.slideshow {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.slideshowarea {
+    width: 10000px;
+    height: 200px;
+    transition: all 1s;
+}
+.slide {
+    height: 200px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slideinfo {
+    height: 60px;
+    background-image: url('../images/slideshow_bg.png');
+    background-size: auto 60px;
+    margin-top: 140px;
+}
+.slideinfo_titulo {
+    font-size: 20px;
+    color: #133656;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-style: italic;
+}
+.slidebolinhas {
+    width: 100px;
+    height: 20px;
+    position: absolute;  
+}
+.bolinha {
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #133656;
+    border-radius: 10px;
+}
+
+/* Estilo Apresentação dos produtos */
+.produtos {
+    display: table;
+}
+.produto {
+    width: 30%;
+    min-height: 340px;
+    background-color: #e7e5dc;
+    margin: 10px 0px 0 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px #ccc;
+    float: left;
+    display: inline;
+}
+.produto .image_prod {
+    width: 185px;
+    height: 100px;
+    margin: 15px;
+    padding: 10px;
+    background-size: cover;
+    box-shadow: 3px 3px 2px #ccc;
+}
+.produto .texto_prod {
+    margin: 15px;
+    text-align: justify;
+    
+}
+.produto .texto_prod p {
+    line-height: 20px;
+}
+.produto .texto_prod h3 {
+    color: #133656;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.produtos .titulo {
+    margin-bottom: 10px;
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+}
+/* FORMULÁRIO ORÇAMENTO */
+input, select, textarea, button {
+    border-radius: 5px;
+}
+form {
+    width: 330px;
+    background-color: #e7e5dc;
+    padding: 10px;
+    margin: 0 10px 0 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px #ccc;
+}
+fieldset {
+    width: 310px;
+    border: none;
+}
+.formulariocontato {
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+}
+.campo {
+    margin-bottom: 5px;
+}
+.campo label {
+    margin-bottom: 5px;
+    display: block;
+}
+.campo input {
+    width: 200px;
+}
+.campo input[type="text"], input[type="email"], input[type="telefone"], select, textarea {
+    padding: 5px;
+    border: 1px solid #133656;
+    box-shadow: 2px 2px 2px #b3b5b7;
+    display: block;
+}
+
+.campo select option {
+    padding-right: 10px;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #eff0f0;
+}
+.botao {
+    font-size: 15px;
+    background: #133656;
+    border: 0;
+    color: #ffffff;
+    padding: 10px;
+}
+.botao:hover {
+    background: #082846;
+}
+
+
+/* Rodapé */
+.rodape {
+    height: 30px;
+    background-color: #133656;
+    text-align: center;
+}
+.rodape p {
+    line-height: 30px;
+    color: #fff;
+    font-size: 10px;
+}
